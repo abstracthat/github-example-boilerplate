@@ -1,0 +1,22 @@
+doctype html
+html(lang='en')
+  head
+    title Demo
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    
+    //- add your css files to this array in the correct load order
+    - var styles = ['lib/normalize.css', 'style.css']
+    for style in styles
+      link(rel='stylesheet', href=style)
+
+    //- add your js files to this array in the correct load order
+    - var scripts = ['lib/jquery.js', 'script.js']
+    for file in scripts
+      script(src= file)
+
+  body
+    .page
+      h1 Hello
+      p world...

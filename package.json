@@ -1,0 +1,39 @@
+{
+  "name": "github-example-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for github hosted code examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abstracthat/github-example-boilerplate"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "author": "Josh Bertrand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abstracthat/github-example-boilerplate/issues"
+  },
+  "homepage": "https://github.com/abstracthat/github-example-boilerplate",
+  "dependencies": {
+    "axis": "^0.4.2",
+    "browser-sync": "^2.8.0",
+    "coffee-script": "^1.9.3",
+    "downbeat": "^1.0.4",
+    "gh-pages": "^0.3.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-coffee": "^2.3.1",
+    "gulp-jade": "^1.0.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-stylus": "^2.0.5",
+    "happy-grid": "^2.0.1",
+    "main-bower-files": "^2.9.0",
+    "rupture": "^0.6.1",
+    "stylus-lightning": "^1.0.2"
+  }
+}
